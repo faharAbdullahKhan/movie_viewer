@@ -4,13 +4,8 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This is a complete code file of the project movie_viewer.
+There was 3 different apis in document but I have used only first API and router data from one screen to another. I didnt use other 2 apis in the document becuase all 3 apis were showing different data, In first api there was different amount of popular movie and in search api I was getting different movies.
 
-A few resources to get you started if this is your first Flutter project:
+In document it was recommend to use multiple packages of flutter e.g flutter bloc, retrofit, freezed, mocktail I only used bloc package becuase that was only package I found useful for this app, I didnt use retrofit becuase I made my model class using quicktype.io it is easier and faster than using retrofit and json serializable.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
